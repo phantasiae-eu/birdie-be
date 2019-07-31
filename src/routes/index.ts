@@ -1,7 +1,7 @@
 import { Router } from 'express'
 // *added* import for weather route
-import Users from './users'
+import Census from './census'
 const router = Router()
 // *change here to address routes*
-router.use('/users', Users)
+router.use('/census', Census)
 export default router
