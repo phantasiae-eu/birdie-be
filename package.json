@@ -5,7 +5,7 @@
   "author": "Giorgio Mazzei",
   "license": "MIT",
   "scripts": {
-    "start": "tsc && node ./dist/src/server.js",
+    "start": "tsc && node ./dist/server.js",
     "lint": "eslint . --ext .js,.ts --fix && echo 'Lint complete.'"
   },
   "devDependencies": {

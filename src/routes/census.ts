@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 import express = require('express')
-import { connection } from '../../db/connection'
+import { connection } from '../db/connection'
 import { FullResult } from './census.model'
 const router = express.Router()
 
